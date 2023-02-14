@@ -30,7 +30,7 @@ html, body{
   flex-direction: row;
   height: 100px;
   flex: 1 0 auto;
-  background: #E0F6FC;
+  background:linear-gradient(to bottom, #E0F6FC 20%, #EDFBFF 20%, #EDFBFF 40%, #F7FDFF 20%, #F7FDFF 60%, #C3EBCF 60%);
   margin-top: auto;
 }
 .left-content{
