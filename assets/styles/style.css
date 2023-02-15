@@ -1,66 +1,69 @@
-html, body{
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
-.main{
+.main {
   display: flex;
   flex-direction: column;
   background: #333;
   height: 100%;
 }
-.header{
+.header {
   display: flex;
-  flex-direction: row;
   height: 100px;
-  background-color: #B3DFEB;
+  background-color: #b3dfeb;
 }
-.header-logo{
+.header-logo {
   min-width: 80px;
   background-color: blue;
-  margin-right: auto;
 }
 .header-search {
   min-width: 300px;
   background-color: rgb(238, 95, 126);
-  
 }
-.header-navigation{
+.header-navigation {
   min-width: 382px;
   background-color: rgb(0, 255, 42);
   margin-left: auto;
 }
-.main-content{
+.main-content {
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
   height: 100px;
   flex: 1 0 auto;
-  background:linear-gradient(to bottom, #E0F6FC 20%, #EDFBFF 20%, #EDFBFF 40%, #F7FDFF 20%, #F7FDFF 60%, #C3EBCF 60%);
-  margin-top: auto;
+  background: linear-gradient(
+    to bottom,
+    #e0f6fc 20%,
+    #edfbff 20%,
+    #edfbff 40%,
+    #f7fdff 20%,
+    #f7fdff 60%,
+    #c3ebcf 60%
+  );
 }
-.left-content{
+.left-content {
   background-color: rgb(0, 255, 42);
   min-width: 227px;
 }
-.center-content{
+.center-content {
   min-width: 500px;
   background-color: rgb(255, 0, 55);
 }
-.right-content{
+.right-content {
   min-width: 370px;
   background-color: blue;
 }
-.footer{
+.footer {
   display: flex;
-  flex-direction: row;
   height: 100px;
-  background: #8CDBB2;
+  background: #8cdbb2;
   margin-top: auto;
 }
-.footer-navigation{
+.footer-navigation {
   min-width: 370px;
   background-color: blue;
-  margin-right: auto;
 }
-.footer-social{
+.footer-social {
   min-width: 500px;
   background-color: rgb(255, 0, 55);
   margin-left: auto;
