@@ -16,14 +16,17 @@ html, body{
 .header-logo{
   min-width: 80px;
   background-color: blue;
+  margin-right: auto;
 }
 .header-search {
   min-width: 300px;
   background-color: rgb(238, 95, 126);
+  
 }
 .header-navigation{
   min-width: 382px;
   background-color: rgb(0, 255, 42);
+  margin-left: auto;
 }
 .main-content{
   display: flex;
@@ -55,8 +58,10 @@ html, body{
 .footer-navigation{
   min-width: 370px;
   background-color: blue;
+  margin-right: auto;
 }
 .footer-social{
   min-width: 500px;
   background-color: rgb(255, 0, 55);
+  margin-left: auto;
 }
