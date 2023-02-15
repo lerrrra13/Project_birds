@@ -1,0 +1,30 @@
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  flex: 1 0 auto;
+  background: linear-gradient(
+      to bottom,
+      #e0f6fc 20%,
+      #edfbff 20%,
+      #edfbff 40%,
+      #f7fdff 20%,
+      #f7fdff 60%,
+      #c3ebcf 60%
+  );
+}
+
+.left-content {
+  background-color: rgb(0, 255, 42);
+  min-width: 227px;
+}
+
+.center-content {
+  min-width: 500px;
+  background-color: rgb(255, 0, 55);
+}
+
+.right-content {
+  min-width: 370px;
+  background-color: blue;
+}

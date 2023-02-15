@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "sourceMap": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    // generate default imports if they don't exist
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  },
+  // our project shouldn't touch these
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    "**/*.test.ts"
+  ],
+  // look only for the following
+  "include": [
+    "src",
+    "main.d.ts"
+  ]
+}
