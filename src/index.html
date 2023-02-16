@@ -1,53 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Nunito+Sans:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
-    <title>Web Project</title>
-  </head>
 
-  <body>
-    <div class="main">
-      <header class="header">
-        <div class="header-logo">hello</div>
-        <div class="header-search">,,,</div>
-        <nav class="header-navigation">...</nav>
-      </header>
-      <main class="main-content">
-        <div class="left-content">...</div>
-        <div class="center-content">,,,</div>
-        <nav class="right-content">...</nav>
-      </main>
-      <footer class="footer">
-        <div class="footer-navigation">
-          <nav class="menu">
-            <a href="#">Главная</a>
-            <a href="#">Читать</a>
-            <a href="#">Слушать</a>
-            <a href="#">Контакты</a>
-          </nav>
-          <div class="copyright">
-            <a href="#">© 2022 Cайт разработан Lera So</a>
-            <a href="#">Политика обработки cookie</a>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Nunito+Sans:wght@300;400;600&display=swap"
+    rel="stylesheet" />
+  <title>Web Project</title>
+</head>
+
+<body>
+  <div class="main">
+    <header class="header">
+      <div class="header-logo"><a href="index.html"><img src="assets/images/menu/Logo.svg"></div>
+      <div class="header-search">
+        <div class="container">
+          <input type="text" maxlength="45" placeholder="Поиск сказки" class="searchbar">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/41gYkruZM2L.png" alt="search icon" class="button">
         </div>
-        <div class="footer-social">
-          <div class="social">Мы есть в соц.сетях</div>
-          <div class="social icons">
-            <a href="icon">icon</a>
-            <a href="icon">icon</a>
-            <a href="icon">icon</a>
-          </div>
+      </div>
+      <nav class="header-navigation">
+        <a class="flex_item1" href="index.html"><img src="assets/images/menu/Icon-main.svg"></a>
+        <a class="flex_item2" href="read.html"><img src="assets/images/menu/Icon-read.svg"></a>
+        <a class="flex_item3" href="hear.html"><img src="assets/images/menu/Icon-hear.svg"></a>
+        <a class="flex_item4" href="contacts.html"><img src="/assets/images/menu/Icon-contacts.svg"></a>
+      </nav>
+    </header>
+    <main class="main-content">
+      <div class="left-content">...</div>
+      <div class="center-content">,,,</div>
+      <nav class="right-content">...</nav>
+    </main>
+    <footer class="footer">
+      <div class="footer-navigation">
+        <nav class="menu">
+          <a href="#">Главная</a>
+          <a href="#">Читать</a>
+          <a href="#">Слушать</a>
+          <a href="#">Контакты</a>
+        </nav>
+        <div class="copyright">
+          <a href="#">© 2022 Cайт разработан Lera So</a>
+          <a href="#">Политика обработки cookie</a>
         </div>
-      </footer>
-    </div>
-  </body>
+      </div>
+      <div class="footer-social">
+        <div class="social">Мы есть в соц.сетях</div>
+        <div class="social icons">
+          <a href="icon">icon</a>
+          <a href="icon">icon</a>
+          <a href="icon">icon</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
 </html>
