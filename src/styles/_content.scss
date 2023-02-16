@@ -22,7 +22,7 @@
 }
 
 .text {
-  background-color: #FFFFE5;
+  background-color: #ffffe5;
   border-radius: 5px;
   width: 332px;
   height: 370px;
@@ -36,14 +36,16 @@ h1 {
   font-size: 16px;
   font-family: thonburi;
   text-align: left;
+  font-weight: bold;
 }
 
 h2 {
   padding-top: 14px;
+  font-weight: bold;
 }
 
 .text p {
-  text-indent: 1.5rem
+  text-indent: 1.5rem;
 }
 
 .right-content {
