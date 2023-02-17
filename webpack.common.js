@@ -70,6 +70,18 @@ module.exports = {
       filename: 'index.html',
       template: path.resolve(__dirname, 'src/index.html')
     }),
+    new HtmlWebpackPlugin({
+      filename: 'read.html',
+      template: path.resolve(__dirname, 'src/read.html')
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'hear.html',
+      template: path.resolve(__dirname, 'src/hear.html')
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'contacts.html',
+      template: path.resolve(__dirname, 'src/contacts.html')
+    }),
     new ForkTsCheckerWebpackPlugin(),
     new CopyPlugin({
       patterns: [

@@ -1,10 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Nunito+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Детские сказки</title>
+  </head>
 
-</body>
+  <body>
+    <div class="main">
+      <header class="header">
+        <div class="header-logo">
+          <a href="index.html">
+            <img src="assets/images/menu/Logo.svg" alt="Перейти на главную" />
+          </a>
+        </div>
+
+        <label class="header-search">
+          <input
+            class="header-search__input"
+            type="text"
+            placeholder="Поиск сказки"
+          />
+          <img
+            class="header-search__icon"
+            src="assets/images/Icon-lupa.svg"
+            alt="Поиск"
+          />
+        </label>
+
+        <nav class="header-navigation">
+          <a class="header-navigation__item" href="index.html">
+            <img
+              src="assets/images/menu/Icon-main.svg"
+              alt="Перейти на главную"
+            />
+          </a>
+          <a class="header-navigation__item" href="read.html">
+            <img
+              src="assets/images/menu/Icon-read.svg"
+              alt="Перейти в Читать"
+            />
+          </a>
+          <a class="header-navigation__item" href="hear.html">
+            <img
+              src="assets/images/menu/Icon-hear.svg"
+              alt="Перейти в Слушать"
+            />
+          </a>
+          <a class="header-navigation__item active" href="contacts.html">
+            <img
+              src="assets/images/menu/Icon-contacts.svg"
+              alt="Перейти в контакты"
+            />
+          </a>
+        </nav>
+        <nav class="header-navigation-mobile">
+          <div class="header-navigation-mobile__menu">
+            <i class="fa fa-bars"> </i>
+          </div>
+          <div class="header-navigation-mobile__list"></div>
+        </nav>
+      </header>
+
+      <main class="main-content" style="display: none">
+        <div class="left-content">...</div>
+        <div class="center-content">
+          <div class="text">
+            <h1>Добро пожаловать, дорогой гость!</h1>
+            <p>
+              Мы собрали для тебя множество интересных сказок и историй, которые
+              можно почитать или послушать. А еще у нас есть для тебя маленький
+              подарок - если ты правильно сосчитаешь количество птичек на этом
+              экране и введешь это число в секретноe окошко - получишь раскраску
+              «Пернатый отряд» в электронном варианте в подарок.
+            </p>
+            <h2>Веселых приключений!</h2>
+          </div>
+        </div>
+        <nav class="right-content">...</nav>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-navigation">
+          <nav class="menu">
+            <a href="#">Главная</a>
+            <a href="#">Читать</a>
+            <a href="#">Слушать</a>
+            <a href="#">Контакты</a>
+          </nav>
+          <div class="copyright">
+            <a href="#">© 2022 Cайт разработан Lera So</a>
+            <a href="#">Политика обработки cookie</a>
+          </div>
+        </div>
+        <div class="footer-social">
+          <div class="social">Мы есть в соц.сетях</div>
+          <div class="social icons">
+            <a href="icon">icon</a>
+            <a href="icon">icon</a>
+            <a href="icon">icon</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
