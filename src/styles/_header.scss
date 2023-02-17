@@ -21,8 +21,8 @@
   top: 128px;
   display: flex;
   background: #ffffff;
-  transition: all 0.1s;
-  transition-delay: 0.1s;
+  transition: all .1s;
+  transition-delay: .1s;
   outline: 0 solid #ffffff;
   box-sizing: border-box;
   font-size: 16 px;
@@ -31,12 +31,12 @@
 
   &:hover {
     outline-width: 2px;
+  }
 
-    &__input {
-      border: none;
-      outline: none;
-      background: none;
-    }
+  &__input {
+    border: none;
+    outline: none;
+    background: none;
   }
 
   &__icon {
@@ -58,15 +58,15 @@
     top: 0;
     max-width: 400px;
   }
+}
 
-  .header-navigation {
-    display: none;
+.header-navigation {
+  display: none;
 
-    &__item {
-      position: relative;
-    }
+  &__item {
+    position: relative;
 
-    &__after {
+    &:after {
       content: "";
       position: absolute;
       height: 61px;
@@ -78,7 +78,7 @@
       display: none;
     }
 
-    &__active {
+    &.active {
       &:after {
         display: block;
       }
@@ -115,5 +115,5 @@
 }
 
 .searchbar::placeholder {
-  opacity: 0.3;
+  opacity: .3;
 }
