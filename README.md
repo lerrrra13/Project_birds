@@ -1,4 +1,5 @@
 # Web Project Starter
+
 Webpack | TS | SCSS
 
 ## Development server
