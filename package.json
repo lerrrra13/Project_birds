@@ -43,6 +43,7 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "node-env": "^0.1.6"
   }
 }
