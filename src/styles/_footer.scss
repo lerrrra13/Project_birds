@@ -8,16 +8,30 @@
 
 .footer-navigation {
   display: flex;
+  flex-direction: column;
   font-family: var(--font-family-secondary);
-  padding-top: 20px;
+  margin-left: auto;
 
   &__menu {
     display: none;
 
-    @media (min-width: 540px) {
-      flex-direction: row-reverse;
-      display: inline-flex;
+    a {
+      padding-right: auto;
+    }
 
+    @media (min-width: 540px) {
+      flex-direction: row;
+      display: inline-flex;
+    }
+  }
+
+  &__copyright {
+    display: flex;
+    width: 100%;
+
+    a {
+      font-size: 10px;
+      padding-right: 128px;
     }
   }
 }
