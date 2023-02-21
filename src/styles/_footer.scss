@@ -10,7 +10,6 @@
   display: flex;
   flex-direction: column;
   font-family: var(--font-family-secondary);
-  margin-left: auto;
 
   &__menu {
     display: none;
@@ -21,12 +20,13 @@
 
     @media (min-width: 540px) {
       flex-direction: row;
-      display: inline-flex;
+      display: inline;
+
     }
   }
 
   &__copyright {
-    display: flex;
+    display: inline-block;
     width: 100%;
 
     a {
