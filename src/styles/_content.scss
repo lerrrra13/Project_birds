@@ -43,7 +43,22 @@
   align-items: center;
   justify-content: center;
   margin-top: 24px;
-
+  position: relative;
+  &__pingvin{
+   position: fixed;
+   bottom:200px;
+    left: 210px;
+  }
+  &__sinica{
+    position: fixed;
+    bottom:180px;
+    left: 500px;
+  }
+  &__snegir{
+    position: fixed;
+    bottom:130px;
+    left: 350px;
+  }
   &__text {
     background-color: #ffffe5;
     border-radius: 5px;
