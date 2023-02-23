@@ -1,74 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Nunito+Sans:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
-    <title>Детские сказки</title>
-  </head>
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Nunito+Sans:wght@300;400;600&display=swap"
+    rel="stylesheet"
+  />
+  <title>Детские сказки</title>
+</head>
 
-  <body>
-    <div class="main">
-      <header class="header">
-        <div class="header-logo">
+<body>
+<div class="main">
+  <header class="header">
+    <div class="header-logo">
+      <a href="index.html">
+        <img src="assets/images/menu/Logo.svg" alt="Перейти на главную"/>
+      </a>
+    </div>
+
+    <label class="header-search">
+      <input
+        class="header-search__input"
+        type="text"
+        placeholder="Поиск сказки"
+      />
+      <img
+        class="header-search__icon"
+        src="assets/images/Icon-lupa.svg"
+        alt="Поиск"
+      />
+    </label>
+
+    <nav class="header-navigation">
+      <a class="header-navigation__item active" href="index.html">
+        <img
+          src="assets/images/menu/Icon-main.svg"
+          alt="Перейти на главную"
+        />
+      </a>
+      <a class="header-navigation__item" href="read.html">
+        <img
+          src="assets/images/menu/Icon-read.svg"
+          alt="Перейти в Читать"
+        />
+      </a>
+      <a class="header-navigation__item" href="hear.html">
+        <img
+          src="assets/images/menu/Icon-hear.svg"
+          alt="Перейти в Слушать"
+        />
+      </a>
+      <a class="header-navigation__item" href="contacts.html">
+        <img
+          src="assets/images/menu/Icon-contacts.svg"
+          alt="Перейти в контакты"
+        />
+      </a>
+    </nav>
+
+    <nav class="header-navigation-mobile">
+      <div class="header-navigation-mobile-menu">
+        <i class="fa fa-bars"></i>
+
+        <div class="header-navigation-mobile-menu__list">
           <a href="index.html">
-            <img src="assets/images/menu/Logo.svg" alt="Перейти на главную" />
+            <img src="assets/images/menu/Icon-main.svg" alt="Перейти на главную"/>
+          </a>
+          <a href="read.html">
+            <img src="assets/images/menu/Icon-read.svg" alt="Перейти в Читать"/>
+          </a>
+          <a href="hear.html">
+            <img src="assets/images/menu/Icon-hear.svg" alt="Перейти в Слушать"/>
+          </a>
+          <a href="contacts.html">
+            <img src="assets/images/menu/Icon-contacts.svg" alt="Перейти в контакты"/>
           </a>
         </div>
-
-        <label class="header-search">
-          <input
-            class="header-search__input"
-            type="text"
-            placeholder="Поиск сказки"
-          />
-          <img
-            class="header-search__icon"
-            src="assets/images/Icon-lupa.svg"
-            alt="Поиск"
-          />
-        </label>
-
-        <nav class="header-navigation">
-          <a class="header-navigation__item active" href="index.html">
-            <img
-              src="assets/images/menu/Icon-main.svg"
-              alt="Перейти на главную"
-            />
-          </a>
-          <a class="header-navigation__item" href="read.html">
-            <img
-              src="assets/images/menu/Icon-read.svg"
-              alt="Перейти в Читать"
-            />
-          </a>
-          <a class="header-navigation__item" href="hear.html">
-            <img
-              src="assets/images/menu/Icon-hear.svg"
-              alt="Перейти в Слушать"
-            />
-          </a>
-          <a class="header-navigation__item" href="contacts.html">
-            <img
-              src="assets/images/menu/Icon-contacts.svg"
-              alt="Перейти в контакты"
-            />
-          </a>
-        </nav>
-        <nav class="header-navigation-mobile">
-          <div class="header-navigation-mobile__menu">
-            <i class="fa fa-bars"> </i>
-          </div>
-          <div class="header-navigation-mobile__list"></div>
-        </nav>
-      </header>
+      </div>
+    </nav>
+  </header>
 
   <main class="main-content">
     <img class="grass"
@@ -83,9 +98,9 @@
     </div>
     <div class="center-content">
       <img class="center-content__pingvin" src="assets/images/heroes/pingvin.svg" alt="пингвин">
-          <img class="center-content__sinica" src="assets/images/heroes/sinica.svg" alt="синица">
-          <img class="center-content__snegir" src="assets/images/heroes/snegir.svg" alt="снегирь">
-          <div class="center-content__text">
+      <img class="center-content__sinica" src="assets/images/heroes/sinica.svg" alt="синица">
+      <img class="center-content__snegir" src="assets/images/heroes/snegir.svg" alt="снегирь">
+      <div class="center-content__text">
         <h1>Добро пожаловать, дорогой гость!</h1>
         <p>
           Мы собрали для тебя множество интересных сказок и историй, которые
@@ -102,28 +117,28 @@
     </nav>
   </main>
 
-      <footer class="footer">
-        <div class="footer-social">
-          <div class="footer-social__title">Мы есть в соц.сетях:</div>
-          <div class="footer-social__links">
-            <a class="bg bg-violet" href="#"><i class="fa fa-linkedin"></i></a>
-            <a class="bg bg-blue" href="#"> <i class="fa fa-instagram"></i></a>
-            <a class="bg bg-green" href="#"><i class="fa fa-vk"></i></a>
-          </div>
-        </div>
-        <div class="footer-navigation">
-          <nav class="footer-navigation__menu">
-            <a href="index.html">Главная</a>
-            <a href="read.html">Читать</a>
-            <a href="hear.html">Слушать</a>
-            <a href="contacts.html">Контакты</a>
-          </nav>
-          <div class="footer-navigation__copyright">
-            <a href="#">© 2022 Cайт разработан Lera So</a>
-            <a href="#">Политика обработки cookie</a>
-          </div>
-        </div>
-      </footer>
+  <footer class="footer">
+    <div class="footer-social">
+      <div class="footer-social__title">Мы есть в соц.сетях:</div>
+      <div class="footer-social__links">
+        <a class="bg bg-violet" href="#"><i class="fa fa-linkedin"></i></a>
+        <a class="bg bg-blue" href="#"> <i class="fa fa-instagram"></i></a>
+        <a class="bg bg-green" href="#"><i class="fa fa-vk"></i></a>
+      </div>
     </div>
-  </body>
+    <div class="footer-navigation">
+      <nav class="footer-navigation__menu">
+        <a href="index.html">Главная</a>
+        <a href="read.html">Читать</a>
+        <a href="hear.html">Слушать</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+      <div class="footer-navigation__copyright">
+        <a href="#">© 2022 Cайт разработан Lera So</a>
+        <a href="#">Политика обработки cookie</a>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
 </html>
