@@ -94,6 +94,7 @@
     font-size: 32px;
     color: var(--color-brand);
     position: relative;
+
     &__list {
       display: none;
       flex-direction: column;
@@ -104,15 +105,17 @@
       right: 0;
       background: var(--color-blue);
       border-radius: 16px;
-      box-shadow: 3px 3px 3px  3px rgba(0,0,0,0.1);
-      a{
+      box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+
+      a {
         background: #ffffff50;
         margin: 16px;
         border-radius: 16px;
       }
     }
+
     &:hover &__list {
-      display:flex;
+      display: flex;
     }
   }
 }

@@ -4,7 +4,7 @@ $tablet-width: 640px;
   background: var(--color-green);
   margin-top: auto;
   padding: 12px 24px;
-  @media (min-width:$tablet-width) {
+  @media (min-width: $tablet-width) {
     display: flex;
     flex-direction: row-reverse;
   }
@@ -26,7 +26,8 @@ $tablet-width: 640px;
       display: flex;
       align-items: center;
       justify-content: center;
-      &:hover{
+
+      &:hover {
         color: var(--color-white);
       }
     }
@@ -45,11 +46,12 @@ $tablet-width: 640px;
     justify-content: space-between;
 
     a {
-      font-size: 12px;
+      font-size: 11px;
       display: flex;
       align-items: center;
       justify-content: center;
-      &:hover{
+
+      &:hover {
         color: var(--color-white);
       }
     }
@@ -70,6 +72,7 @@ $tablet-width: 640px;
     margin-left: initial;
   }
 }
+
 .footer-social {
   margin-left: auto;
   display: flex;
@@ -99,7 +102,8 @@ $tablet-width: 640px;
       height: 32px;
       width: 32px;
       border-radius: 50%;
-      &:hover{
+
+      &:hover {
         font-size: 22px;
       }
     }

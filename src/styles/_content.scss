@@ -1,7 +1,8 @@
+$tablet-width: 640px;
 .main-content {
   display: flex;
   justify-content: space-around;
-
+  flex-direction: column;
   flex: 1 0 auto;
   background: linear-gradient(to bottom,
     #e0f6fc 20%,
@@ -11,6 +12,9 @@
     #f7fdff 60%,
     #c3ebcf 60%);
   position: relative;
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+  }
 
   .grass {
     width: 100%;
@@ -39,11 +43,17 @@
 
 
 .center-content {
+  order: 1;
   display: flex;
+  flex: 0 0 30%;
   align-items: center;
   justify-content: center;
   margin-top: 24px;
   position: relative;
+  background-color: #336666;
+  @media (min-width: $tablet-width) {
+    order: 2;
+  }
 
   &__pingvin {
     position: fixed;
@@ -94,8 +104,25 @@
 }
 
 .right-content {
+  order: 2;
   display: flex;
-  flex: 0 1 auto;
+  flex: 0 0 30%;
+  margin-right: 0;
+  flex-direction: row;
+  background: #bebdbd;
+  @media (min-width: $tablet-width) {
+    order: 3;
+  }
+}
+
+.left-content {
+  order: 3;
+  display: flex;
+  flex: 0 0 30%;
   margin-left: 0;
   flex-direction: row;
+  background: #aaaaf6;
+  @media (min-width: $tablet-width) {
+    order: 1;
+  }
 }
