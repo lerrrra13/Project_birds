@@ -1,9 +1,13 @@
+$tablet-width: 640px;
+
 .footer {
-  //display: flex;
-  //height: 100px;
-  background: #8cdbb2;
+  background: var(--color-green);
   margin-top: auto;
   padding: 12px 24px;
+  @media (min-width:$tablet-width) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
 
 .footer-navigation {
@@ -22,13 +26,16 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      padding-right: 24px;
+      &:hover{
+        color: var(--color-white);
+      }
     }
 
-    @media (min-width: 540px) {
+    @media (min-width: $tablet-width) {
       flex-direction: row;
       display: inline-flex;
       flex-wrap: nowrap;
+      justify-content: space-between;
     }
   }
 
@@ -37,22 +44,32 @@
     display: flex;
     justify-content: space-between;
 
-    @media (min-width: 540px) {
-      display: flex;
-      flex-direction: column-reverse;
-      margin-right: auto;
-      flex: 0 0 20%;
-
-    }
     a {
-      font-size: 10px;
+      font-size: 12px;
       display: flex;
       align-items: center;
       justify-content: center;
+      &:hover{
+        color: var(--color-white);
+      }
+    }
+
+    @media (min-width: $tablet-width) {
+      display: flex;
+      margin-top: auto;
+      flex: 0 0 20%;
+      a:last-child {
+        margin-left: 16px;
+      }
     }
   }
-}
 
+  @media (min-width: $tablet-width) {
+    flex-direction: column;
+    align-items: initial;
+    margin-left: initial;
+  }
+}
 .footer-social {
   margin-left: auto;
   display: flex;
@@ -60,7 +77,7 @@
   margin-bottom: 20px;
 
   i {
-    color: white;
+    color: var(--color-white);
   }
 
   &__title {
@@ -82,12 +99,16 @@
       height: 32px;
       width: 32px;
       border-radius: 50%;
+      &:hover{
+        font-size: 22px;
+      }
     }
   }
 
-  @media (min-width: 540px) {
+  @media (min-width: $tablet-width) {
     flex-direction: column;
     max-width: 182px;
+    margin-bottom: initial;
 
     &__title {
       flex: auto;
