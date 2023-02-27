@@ -1,0 +1,52 @@
+/*section{
+  width: 200px;
+  height: 130px;
+  position: relative;
+  left: 50%;
+  top: 1em;
+  margin-left: -100px;
+  overflow: hidden;
+  background: #ffffff;
+  border: 10px solid #f5a3a3;
+  border-radius: 5px;
+}
+
+/*section:hover article{
+  animation-play-state: paused;
+}*/
+
+/*article{
+  position: absolute;
+  left: 200px;
+  background: #ffffff;
+  color: #000000;
+  width: 180px;
+  height: 130px;
+  text-align: left;
+  font: var(--font-family-content);
+  font-size: 12px;
+  padding: 10px;
+}
+
+article:nth-of-type(1){
+  animation: slideIn 45s linear 0s infinite;
+}
+article:nth-of-type(2){
+  animation: slideIn 45s linear 5s infinite;
+}
+article:nth-of-type(3){
+  animation: slideIn 45s linear 10s infinite;
+}
+article:nth-of-type(4) {
+  animation: slideIn 45s linear 15s infinite;
+}
+
+
+@keyframes slideIn{
+  0% {left: 200px;}
+  1% {left: 0;}
+  10% {left: 0;}
+  11% {left: -200px;}
+  100%{left: -200px;}
+}*/
+
