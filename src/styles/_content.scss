@@ -1,6 +1,7 @@
 $tablet-width: 640px;
 .main-content {
   display: flex;
+  overflow: clip;
   justify-content: space-between;
   flex-direction: column;
   flex: 1 0 auto;
@@ -13,7 +14,6 @@ $tablet-width: 640px;
     #c3ebcf 60%);
   position: relative;
   left: 0;
-  overflow: visible;
   @media (min-width: $tablet-width) {
     flex-direction: row;
   }
@@ -22,7 +22,7 @@ $tablet-width: 640px;
     width: 100%;
     position: absolute;
     z-index: 9;
-    bottom: -1px;
+    bottom: -1.1em;
   }
 
   &__pingvin {
@@ -65,8 +65,8 @@ $tablet-width: 640px;
   @media (min-width: $tablet-width) {
     &__pingvin {
       position: fixed;
-      bottom: 200px;
-      left: 280px;
+      bottom: 160px;
+      left: 250px;
     }
 
     &__sinica {
@@ -115,8 +115,7 @@ $tablet-width: 640px;
   align-items: center;
   justify-content: center;
   position: relative;
-  background-color: #336666;
-  opacity: 50%;
+  margin-top: 24px;
   @media (min-width: $tablet-width) {
     order: 2;
   }
