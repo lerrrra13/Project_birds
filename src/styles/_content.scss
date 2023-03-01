@@ -21,34 +21,24 @@ $tablet-width: 640px;
   .grass {
     width: 100%;
     position: absolute;
-    z-index: 9;
+    z-index: 10;
     bottom: -1.1em;
-  }
-
-  &__minisinica {
-    width: 24px;
-    position: absolute;
-    bottom: -4px;
-    right: 40px;
-    @media (min-width: $tablet-width) {
-      bottom: 0;
-    }
-    @media (min-width: 1450px) {
-      width: 36px;
-    }
   }
 
   &__minisnegir {
     width: 24px;
     position: absolute;
-    bottom: -4px;
-    right: 80px;
-    @media (min-width: $tablet-width) {
-      bottom: 0;
-    }
-    @media (min-width: 1450px) {
-      width: 36px;
-    }
+    bottom: -2px;
+    left: 10px;
+    z-index: 8;
+  }
+
+  &__minisinica {
+    width: 24px;
+    position: absolute;
+    bottom: -2px;
+   right: 80px;
+    z-index: 8;
   }
 
   &__pingvin {
@@ -85,29 +75,59 @@ $tablet-width: 640px;
   @media (min-width: $tablet-width) {
     &__pingvin {
       position: absolute;
-      bottom: 40px;
-      left: 250px;
+      bottom: 100px;
+      left: 280px;
     }
 
     &__sinica {
       position: absolute;
-      bottom: 50px;
-      left: 560px;
+      bottom: 120px;
+      left: 500px;
     }
 
     &__snegir {
       position: absolute;
-      bottom: 10px;
-      left: 420px;
+      bottom: 30px;
+      left: 360px;
     }
     &__book {
       position: absolute;
-      bottom: 20px;
-      left: 540px;
+      bottom: 80px;
+      left: 480px;
     }
     &__ring {
       position: absolute;
-      bottom: -100px;
+      height: 40%;
+      bottom: -50px;
+    }
+    @media (min-width: 1200px) {
+      &__pingvin {
+        position: absolute;
+        bottom: 130px;
+        left: 400px;
+      }
+
+      &__sinica {
+        position: absolute;
+        bottom: 130px;
+        left: 750px;
+      }
+
+      &__snegir {
+        position: absolute;
+        bottom: 60px;
+        left: 600px;
+      }
+      &__book {
+        position: absolute;
+        bottom: 90px;
+        left: 730px;
+      }
+      &__ring {
+        position: absolute;
+        height: 40%;
+        bottom: -50px;
+      }
     }
   }
 
@@ -164,12 +184,14 @@ $tablet-width: 640px;
     margin-bottom: auto;
     @media (min-width: $tablet-width) {
       font-size: 16px;
-      height: 370px;
+      height: 380px;
+      line-height: 1.7rem;
     }
     @media (min-width: 1024px) {
       font-size: 18px;
-      height: 400px;
+      height: 440px;
       width: 360px;
+      line-height: 1.8rem;
     }
   }
 
@@ -189,6 +211,12 @@ $tablet-width: 640px;
   h2 {
     padding-top: 14px;
     font-weight: bold;
+    @media (min-width: $tablet-width) {
+      font-size: 16px;
+    }
+    @media (min-width: 1024px) {
+      font-size: 18px;
+    }
   }
 
   &__text p {
