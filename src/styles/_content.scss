@@ -37,7 +37,7 @@ $tablet-width: 640px;
     width: 24px;
     position: absolute;
     bottom: -2px;
-   right: 80px;
+    right: 80px;
     z-index: 8;
   }
 
@@ -338,32 +338,39 @@ $tablet-width: 640px;
     }
   }
 }
+
 .left-content__form {
   height: 40px;
   border-radius: 8rem;
   position: absolute;
   left: 50px;
-  bottom: 400px;
+  bottom: 500px;
   display: flex;
   background: #522B02;
   transition: all .1s;
   transition-delay: .1s;
   outline: 0 solid #ffffff;
   box-sizing: border-box;
+  font-family: var(--font-family-primary);
   font-size: 14px;
   padding: 7px;
   z-index: 9999;
+  @media (min-width: $tablet-width) {
+    left: 50px;
+    bottom: 250px;
   }
+}
 
-  .left-content__input {
-    border: none;
-    outline: none;
-    background: var(--color-white);
-    border-radius: 8rem;
-    width: 10em;
-    padding-left: 20px;
-    &:hover {
-      cursor: pointer;
-    }
+.left-content__input {
+  border: none;
+  outline: none;
+  background: var(--color-white);
+  border-radius: 8rem;
+  width: 10em;
+  padding-left: 20px;
+
+  &:hover {
+    cursor: pointer;
   }
+}
 
