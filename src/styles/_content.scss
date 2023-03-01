@@ -338,3 +338,32 @@ $tablet-width: 640px;
     }
   }
 }
+.left-content__form {
+  height: 40px;
+  border-radius: 8rem;
+  position: absolute;
+  left: 50px;
+  bottom: 400px;
+  display: flex;
+  background: #522B02;
+  transition: all .1s;
+  transition-delay: .1s;
+  outline: 0 solid #ffffff;
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 7px;
+  z-index: 9999;
+  }
+
+  .left-content__input {
+    border: none;
+    outline: none;
+    background: var(--color-white);
+    border-radius: 8rem;
+    width: 10em;
+    padding-left: 20px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
