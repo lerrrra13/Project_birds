@@ -1,5 +1,5 @@
 {
-  "name": "starter-web",
+  "name": "project-birds",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:lerrrra13/starter-web.git"
+    "url": "git+ssh://git@github.com:lerrrra13/Project_birds.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lerrrra13/starter-web/issues"
+    "url": "https://github.com/lerrrra13/Project_birds/issues"
   },
-  "homepage": "https://github.com/lerrrra13/starter-web#readme",
+  "homepage": "https://github.com/lerrrra13/Project_birds#readme",
   "devDependencies": {
     "@types/jest": "^29.4.0",
     "@typescript-eslint/eslint-plugin": "^5.52.0",
