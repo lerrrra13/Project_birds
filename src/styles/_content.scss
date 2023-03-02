@@ -25,6 +25,13 @@ $tablet-width: 640px;
     bottom: -1.1em;
   }
 
+  &__cloud {
+    display: flex;
+    position: absolute;
+    margin-bottom: auto;
+    left: 150px;
+  }
+
   &__minisnegir {
     width: 24px;
     position: absolute;
@@ -174,30 +181,29 @@ $tablet-width: 640px;
   &__text {
     background-color: #ffffe5;
     border-radius: 5px;
-    width: 332px;
-    height: 340px;
-    font-family: var(--font-family-content);
+    width: 350px;
+    height: 370px;
+    font-family: var(--font-family-primary);
     padding: 12px;
-    font-size: 14px;
+    font-size: var(--font-size-default);
     line-height: 1.6rem;
     opacity: 0.7;
     margin-bottom: auto;
     @media (min-width: $tablet-width) {
-      font-size: 16px;
       height: 380px;
       line-height: 1.7rem;
     }
     @media (min-width: 1024px) {
       font-size: 18px;
-      height: 440px;
-      width: 360px;
+      height: 430px;
+      width: 370px;
       line-height: 1.8rem;
     }
   }
 
   h1 {
-    font-size: 14px;
-    font-family: var(--font-family-content);
+    font-size: var(--font-size-default);
+    font-family: var(--font-family-primary);
     text-align: left;
     font-weight: bold;
     @media (min-width: $tablet-width) {
@@ -263,7 +269,7 @@ $tablet-width: 640px;
     width: 180px;
     height: 150px;
     text-align: left;
-    font: var(--font-family-content);
+    font: var(--font-family-primary);
     font-size: 12px;
     padding: 5px;
     @media (min-width: $tablet-width) {
@@ -312,9 +318,9 @@ $tablet-width: 640px;
   }
 }
 
-
+//Контакты со страницы "Контакты"
 .phones {
-  font-family: var(--font-family-content);
+  font-family: var(--font-family-primary);
   margin: 24px;
   line-height: 1.9em;
   color: var(--color-brand);
@@ -325,7 +331,7 @@ $tablet-width: 640px;
   overflow: hidden;
 
   p {
-    font-family: var(--font-family-content);
+    font-family: var(--font-family-primary);
     font-size: 16px;
     color: var(--color-brand);
     text-align: left;
@@ -351,10 +357,19 @@ $tablet-width: 640px;
   transition-delay: .1s;
   outline: 0 solid #ffffff;
   box-sizing: border-box;
-  font-family: var(--font-family-primary);
   font-size: 14px;
   padding: 7px;
   z-index: 9999;
+
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
   @media (min-width: $tablet-width) {
     left: 50px;
     bottom: 250px;

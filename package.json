@@ -44,6 +44,7 @@
   },
   "dependencies": {
     "font-awesome": "^4.7.0",
-    "node-env": "^0.1.6"
+    "node-env": "^0.1.6",
+    "scss-validator": "^2.0.0"
   }
 }
