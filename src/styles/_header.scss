@@ -14,7 +14,7 @@
   margin-right: 24px;
 }
 
-.header-search {
+.header-search { /*поле для поиска сказки*/
   height: 40px;
   border-radius: 10rem;
   position: absolute;
@@ -40,7 +40,7 @@
     background: none;
   }
 
-  &__icon {
+  &__icon { /*иконка для поиска сказки*/
     position: absolute;
     right: 12px;
     top: 6px;
@@ -61,7 +61,7 @@
   }
 }
 
-.header-navigation {
+.header-navigation { /*в мобилке вместо меню - бургер*/
   display: none;
 
   &__item {
@@ -121,7 +121,7 @@
 }
 
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) {/*включаем меню*/
   .header-navigation {
     display: block;
   }

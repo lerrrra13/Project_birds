@@ -16,7 +16,7 @@ $tablet-width: 640px;
   align-items: center;
   font-family: var(--font-family-secondary);
 
-  &__menu {
+  &__menu { /*меню в футере для мобилки не отображаем*/
     display: none;
     flex: 0 0 20%;
     font-size: 16px;
@@ -32,7 +32,7 @@ $tablet-width: 640px;
       }
     }
 
-    @media (min-width: $tablet-width) {
+    @media (min-width: $tablet-width) {/*включаем меню*/
       flex-direction: row;
       display: inline-flex;
       flex-wrap: nowrap;
